@@ -1,29 +1,27 @@
 import React from 'react'
 import SideBar from '../../components/common/sidebar'
+import Edit from '../../components/common/EditEquipment';
 import * as S from "./indexStyle";
-import EquipmentContainer from '../../components/common/equipmentContainer';
 
 const Main = () => {
   return (
-    <S.Container>
+    <S.MainStructure>
       <SideBar/>
-      <S.MainContainer>
-        <S.TopNav>
-          <S.SchoolName>DGSW</S.SchoolName>
-          <S.SubmitItem>기타 물건신청</S.SubmitItem>
-        </S.TopNav>
-          <hr style={{width:"862px", border:"1px solid #D9D9D9"}}/>
-        <S.EquipmentDiv>
-          <EquipmentContainer/>
-          <EquipmentContainer/>
-          <EquipmentContainer/>
-          <EquipmentContainer/>
-          <EquipmentContainer/>
-          <EquipmentContainer/>
-        </S.EquipmentDiv>
-        </S.MainContainer>
-    </S.Container>
+      <S.EditScreen>
+        <S.ContentBox>
+          <S.Header>
+                <S.Title>수정하기</S.Title>
+                <S.DelectButton>기자재 삭제</S.DelectButton>
+            </S.Header>
+          <S.Line></S.Line>
+          <Edit />
+        </S.ContentBox>
+      </S.EditScreen>
+      
+      
+    </S.MainStructure>
+    
   )
 }
 
-export default Main
+export default Main;

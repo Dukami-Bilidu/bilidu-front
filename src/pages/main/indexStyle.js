@@ -1,39 +1,51 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
-export const MainContainer = styled.div`
-    margin-left:94px;
-    margin-top:98px;
-`
-
-export const SchoolName = styled.div`
-    font-size:32px;
-`
-
-export const Container = styled.div`
+export const MainStructure = styled.div`
+    width:100vw;
+    height:100vh;
     display:flex;
+    flex-direction:row;
+    align-items: center;
 `
 
-export const TopNav = styled.div`
-    width:862px;
-    height:47px;
-    display:flex;
-    justify-content:space-between;
-`
-export const SubmitItem = styled.div`
-    width:133px;
-    height:38px;
-    background-color:#D9D9D9;
-    font-size:20px;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    cursor: pointer;
+export const EditScreen = styled.div`
+    width:1056px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 `
 
-export const EquipmentDiv = styled.div`
-    width:863px;
-    max-width:863px;
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    row-gap: 30px;
+export const ContentBox = styled.div`
+    width:808px;
+    height:579px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+`
+
+export const DelectButton = styled.button`
+    width:100px;
+    height:32px;
+    background-color:#d9d9d9;
+    font-size: 18px;
+    border:none;
+`
+
+export const Line = styled.div`
+    width:800px;
+    height:1px;
+    background-color: #d9d9d9;
+`
+
+export const Header = styled.div`
+    width:800px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+`
+
+export const Title = styled.h1`
+    font-size: 32px;
 `
