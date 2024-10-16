@@ -13,7 +13,8 @@ export const EditScreen = styled.div`
     height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    margin-top: 100px;
 `
 
 export const ContentBox = styled.div`
