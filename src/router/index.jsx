@@ -1,12 +1,14 @@
 import React from "react";
-import Main from "../pages/main";
+import EditPage from "../pages/Edit";
+import AddPage from "../components/common/AddEquipment";
 import { BrowserRouter, Routes, Route} from 'react-router-dom'
 
 const Router = () => {
     return (
       <BrowserRouter>
         <Routes>
-        <Route path='/' element={<Main/>}/>
+        <Route path='/' element={<EditPage/>}/>
+        <Route path="/add" element={<AddPage/>}/>
         </Routes>
       </BrowserRouter>
     )

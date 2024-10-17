@@ -1,20 +1,21 @@
 import React from 'react'
-import SideBar from '../../components/common/sidebar'
-import Edit from '../../components/common/EditEquipment';
+import SideBar from '../../components/common/sidebar';
+import Add from '../../components/common/AddEquipment';
 import * as S from "./indexStyle";
 
-const Main = () => {
+const AddPage = () => {
   return (
+
     <S.MainStructure>
       <SideBar/>
       <S.EditScreen>
         <S.ContentBox>
           <S.Header>
-                <S.Title>수정하기</S.Title>
-                <S.DelectButton>기자재 삭제</S.DelectButton>
+                <S.Title>추가하기</S.Title>
             </S.Header>
           <S.Line></S.Line>
-          <Edit />
+          
+          <Add />
         </S.ContentBox>
       </S.EditScreen>
       
@@ -24,4 +25,4 @@ const Main = () => {
   )
 }
 
-export default Main;
+export default AddPage;
