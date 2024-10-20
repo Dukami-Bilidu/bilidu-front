@@ -1,17 +1,17 @@
-import './App.css';
-import Apply from './components/Apply';
-import Apply1 from './components/Apply1';
 import SideBar from './components/common/sidebar';
-import Apply2 from './components/Apply2';
-
+import Trt from './components/Teacher/Trental/Trt';
+import Trt1 from './components/Teacher/Trental/Trt1';
+import Trt2 from './components/Teacher/Trental/Trt2';
+import Excel from './components/Teacher/Tapply/Excel';
 
 const App = () => {
   return (
-    <div className="App">
-     <Apply/>
-     <Apply1/>
-     <Apply2/>
-     <SideBar/> 
+    <div>
+    <Trt/>
+    <Trt1/>
+    <Trt2/>
+    <Excel/>
+    <SideBar/> 
     </div>
   );
 }
