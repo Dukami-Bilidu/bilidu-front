@@ -29,6 +29,7 @@ export const LoginBtn = styled.button `
 `
 export const P = styled.p `
     margin-left:295px;
+
 `
 export const LogoBox = styled.div`
     display:flex;

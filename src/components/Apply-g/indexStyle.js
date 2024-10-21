@@ -62,3 +62,6 @@ export const ApplyButton = styled.button `
     height:70px;
     margin-left:660px;
 `
+export const Span = styled.span`
+    font-size:20px;
+`
