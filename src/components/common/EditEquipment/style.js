@@ -18,8 +18,7 @@ export const EquipmentPhoto = styled.div`
 export const EquipmentInput = styled.input`
     width:363px;
     height:70px;
-    background-color: #d9d9d9;
-    border: none;
+    border:2px solid #d9d9d9;
     font-size: 24px;
 `
 export const InputPlace = styled.div`

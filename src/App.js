@@ -1,5 +1,4 @@
 import './App.css';
-import Router from './router/index';
 import { BrowserRouter, Routes, Route} from 'react-router-dom'
 import EditPage from "./pages/Edit";
 import AddPage from './pages/Add';
